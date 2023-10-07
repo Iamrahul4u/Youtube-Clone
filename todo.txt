@@ -1,0 +1,7 @@
+Header
+Body
+Sidebar
+Search
+VideoComponent
+VideoCard
+Filters

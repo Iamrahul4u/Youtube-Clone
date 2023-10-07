@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  scrollbar-width: thin; /* or auto for default scrollbar width */
+}
+
+/* Hide the scrollbar for webkit browsers */
+.container::-webkit-scrollbar {
+  width: 0; /* Hide scrollbar width */
+}
+
+/* Optional: If you want to style the scrollbar */
+.container::-webkit-scrollbar-thumb {
+  background-color: fff; /* Hide scrollbar thumb */
+}
